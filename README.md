@@ -1,8 +1,8 @@
 # orcid-service
 
-Web service for ORCID
+Web micro service for ORCID
 
-Installation:
+#Installation:
 
 ```bash
 git clone https://github.com/adsabs/orcid-service
@@ -12,14 +12,14 @@ vim orcid_service/config.py # edit edit...
 python orcid_service/app.py &
 ```
 
-Configuration:
+#Configuration:
 
 The service needs to know few details
 
- ORCID_API_ENDPOINT: usually https://api.orcid.org/v1.2
- ORCID_CLIENT_SECRET: must be given to you by Orcid, do not
+  - ORCID_API_ENDPOINT: usually https://api.orcid.org/v1.2
+  - ORCID_CLIENT_SECRET: must be given to you by Orcid, do not
    share this secret!
- ORCID_CLIENT_ID: given to you from Orcid
+  - ORCID_CLIENT_ID: given to you from Orcid
 
 
 To check existing routes:
